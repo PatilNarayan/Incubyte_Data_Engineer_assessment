@@ -1,0 +1,20 @@
+#Create table in hive
+CREATE database hospital;
+
+#showing databases in hive
+SHOW DATABASES;
+
+#selecting hospital in hive databases
+use hospital;
+
+#createing table in hospital database
+create table hospital.patients(Customer_Name varchar(255), Customer_Id varchar(18), Open_Date date, Last_Consulted_Date date, Vaccination_Id char(5), Dr_Name char(255), State char(5), Country char(5),post int, DOB date, Is_Active char(1))
+row format delimited  
+fields terminated by ',' ;    
+
+#describing patients table columns 
+DESCRIBE EXTENDED patients;
+
+#load sample data in partients table
+load data local inpath '/user/maria_dev/data.csv' into table patients;
+
