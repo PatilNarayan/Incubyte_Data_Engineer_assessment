@@ -13,7 +13,7 @@ from pyspark.sql import SQLContext
 sc = SparkContext('local','example')  # if using locally
 sqlContext = SQLContext(sc)
 
-# fetching tables
+# fetching tables from hive tables
 df=sqlContext.sql("select * from hospital.patients")
 
 # visualization Data
