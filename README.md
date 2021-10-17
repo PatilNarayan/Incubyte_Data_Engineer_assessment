@@ -4,7 +4,8 @@
 ![](https://img.shields.io/badge/Shell-Bash-informational?style=flat&logo=gnu-bash&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Tools-PostgreSQL-informational?style=flat&logo=postgresql&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Hortonworks%20-sandbox-%2375FF02)
-![](https://img.shields.io/badge/editor%20-pycharm-%2375FF02)
+![](https://img.shields.io/badge/Editor-Spyder-%2328FF02)
+![](https://img.shields.io/badge/env-Anaconda--navigator-%2328FF02)
 
 ## Overview 
 This repository contains implementation of given assessment.
@@ -41,5 +42,6 @@ using country-based row filteration.
 - Hive Output
 ![Screenshot from 2021-10-17 10-57-03](https://user-images.githubusercontent.com/70795556/137617398-c4b73487-f30b-4c2d-ae13-2323bb13821f.png)
 - pyspark Output
+![Screenshot from 2021-10-17 12-43-38](https://user-images.githubusercontent.com/70795556/137617457-7cb43065-4b7c-466b-9a24-9e10c806c80d.png)
 
  
